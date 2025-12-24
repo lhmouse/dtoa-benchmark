@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <float.h>
 
 // check cpu has neon or sse2 ; most all CPU has neon or sse2;
 
