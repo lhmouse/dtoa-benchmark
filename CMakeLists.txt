@@ -16,7 +16,7 @@ add_executable(
   src/benchmark.cc
 
   # Tests:
-  #src/asteria-test.cc
+  src/asteria-test.cc
   src/double-conversion-test.cc
   src/dragonbox-test.cc
   src/experimental-test.cc
@@ -24,11 +24,11 @@ add_executable(
   # Grisu2 variants are disabled since they don't guarantee correctness.
   #src/milo-test.cc
   src/null-test.cc
-  src/ostringstream-test.cc
+  #src/ostringstream-test.cc
   #src/puff-test.cc
   src/ryu-test.cc
   src/schubfach-test.cc
-  src/sprintf-test.cc
+  #src/sprintf-test.cc
   src/to_chars-test.cc
   src/xjb-test.cc
   src/yy-test.cc
